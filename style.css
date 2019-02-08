@@ -1,0 +1,51 @@
+html{
+    background: url(images/raveBildTurnTable.jpeg) no-repeat;
+    background-size: cover;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'Montserrat', sans-serif;
+    color: #FFAA00;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.key{
+    border: #000 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 10px;
+    transition: all 0.07s ease;
+    text-align: center;
+    background: rgba(0,0,0, 0.5);
+    width: 100px;
+    text-shadow: 0 0 3px black;
+
+}
+
+.playing{
+    transform: scale(1.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 16px #ffc600;
+}
+kbd{
+    display: block;
+    font-size: 20px;
+}
+
+.sound{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;  
+}
